@@ -45,7 +45,7 @@
              <div class="flex flex-wrap gap-8 items-center pt-4 border-t border-white/5">
                 <div>
                    <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">Lokasi Kami</p>
-                   <p class="text-white font-bold">Semarang, Jawa Tengah</p>
+                   <p class="text-white font-bold">Kota Depok, Jawa Barat</p>
                 </div>
                 <div class="w-px h-8 bg-white/10 hidden sm:block"></div>
                 <div>
