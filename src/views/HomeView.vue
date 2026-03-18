@@ -180,6 +180,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
+import config from '../config'
 
 const stats = ref({})
 const recentTransactions = ref([])
@@ -187,7 +188,7 @@ const readyStockItems = ref([])
 const loading = ref(true)
 const error = ref(null)
 
-const API_BASE_URL = 'http://localhost:8080/api'
+const API_BASE_URL = config.API_BASE_URL
 
 const fetchStats = async () => {
   loading.value = true
